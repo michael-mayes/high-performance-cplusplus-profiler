@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Profiler", "profiler-2005.vcproj", "{FFDC1809-F67B-4933-B4E0-5298EA5DDB7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFDC1809-F67B-4933-B4E0-5298EA5DDB7E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FFDC1809-F67B-4933-B4E0-5298EA5DDB7E}.Debug|Win32.Build.0 = Debug|Win32
+		{FFDC1809-F67B-4933-B4E0-5298EA5DDB7E}.Release|Win32.ActiveCfg = Release|Win32
+		{FFDC1809-F67B-4933-B4E0-5298EA5DDB7E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
