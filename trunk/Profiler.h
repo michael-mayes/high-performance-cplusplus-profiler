@@ -120,7 +120,7 @@ namespace Profiler {
 		inline void Stop() { ticks += ( getticks() - started ); }
 		inline void Reset() { ticks = started = calls = 0; paused = false; }
 		inline void SoftStop() { if ( !paused ) { u64 t = getticks(); ticks += ( t - started ); started = t; } }
-		inline void SoftReset() { ticks = 0; calls = 1; started = getticks(); }
+		inline void SoftReset() { ticks = 0; calls = 0; started = getticks(); }
 
 		template< class type > static f64 ms( const type &t ) { return f64( t ) / 1000000.0; }
 		f64 millicycles() { return ms( ticks ); }
