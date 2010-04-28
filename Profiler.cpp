@@ -1083,6 +1083,9 @@ namespace Profiler {
 			} else {
 				thread.threadState->threadLock.Acquire();
 				thread.root->SoftReset();
+				Caller *iter = thread.threadState->activeCaller;
+				for ( ; iter; iter = iter->GetParent() )
+					iter->GetTimer().calls = 1;
 				thread.threadState->threadLock.Release();
 			}
 		}
