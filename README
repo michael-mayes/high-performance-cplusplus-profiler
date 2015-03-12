@@ -4,6 +4,10 @@ INFO
 
 Automatically exported from code.google.com/p/high-performance-cplusplus-profiler to save it for posterity now that Google Code will be closed
 
+Originally developed on Google Code by Andrew/liquidsun/floodyberry, but I cannot find a way to check in with him to confirm that it would be saved otherwise
+
+Design described at https://floodyberry.wordpress.com/2009/10/07/high-performance-cplusplus-profiling/
+
 
 ------------
 WHAT IS THIS
